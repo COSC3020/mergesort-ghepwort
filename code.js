@@ -14,7 +14,7 @@ function mergesort(arr) {
 
 function merge(arr, left, mid, end) {
     // Two "pointers" to keep track of array indexes
-    var LeftPointer = left
+    var LeftPointer = left;
     var RightPointer = mid + 1;
 
     // Makes sure there are arrays to sort
